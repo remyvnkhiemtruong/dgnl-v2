@@ -26,11 +26,23 @@ Sau đó mở `http://localhost:8000`.
 - 120 câu dạng text, không nhúng PDF.
 - Hỗ trợ LaTeX bằng MathJax.
 - Timer, đánh dấu câu, lọc câu chưa làm/đánh dấu.
+- Các chế độ xem đề: làm bài từng câu, đọc đề theo phần/toàn văn, đề giấy A4 một cột để in/lưu PDF.
+- Ghi nhớ chế độ xem, phần đang đọc và trạng thái bài làm trong trình duyệt.
 - Lời giải và đáp án đúng bị khóa trước khi nộp bài.
 - Sau khi nộp bài mới hiện điểm thô, đáp án, giải thích.
 - `data/exam_only.txt`: bản đề không đáp án.
 - `data/full_text_with_solutions.txt`: bản đầy đủ kèm lời giải để kiểm tra dữ liệu.
 - `data/validation.json`: báo cáo kiểm tra dữ liệu.
+
+## Chuẩn hóa dữ liệu
+
+Sau khi chỉnh dữ liệu trong `data/exam.json`, chạy:
+
+```bash
+python tools/normalize_exam_data.py
+```
+
+Script sẽ chuẩn hóa khoảng trắng/xuống dòng an toàn và sinh lại `data/exam-data.js`, các bản `.txt`, `data/validation.json`, và `index-local.html`.
 
 ## Lưu ý
 

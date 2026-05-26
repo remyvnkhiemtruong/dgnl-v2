@@ -63,7 +63,7 @@ B. Luật bằng, vần trắc.
 C. Luật trắc, vần trắc.
 D. Luật bằng, vần bằng.
 
-Câu 6: Trước khi nói đến những nơi ăn chơi của Hà Nội, tưởng cũng như dạo qua chợ Đồng Xuân, cái "bụng" của thành phố,là nơi mà những vật liệu cần cho các cao lâu từ các vùng quê và ngoại ô đến. Ở đây, chúng ta được thấy các thực phẩm còn giữ nguyên hình trước khi biến thành những món xào nấu ngon lành dưới tay các đầu bếp nổi danh hay các bà nội trợ. Tất cả của ngon vật lạ các nơi đều đem đến đây, để hiến cho sự thưởng thức sành sỏi của người Hà Nội.
+Câu 6: Trước khi nói đến những nơi ăn chơi của Hà Nội, tưởng cũng như dạo qua chợ Đồng Xuân, cái "bụng" của thành phố, là nơi mà những vật liệu cần cho các cao lâu từ các vùng quê và ngoại ô đến. Ở đây, chúng ta được thấy các thực phẩm còn giữ nguyên hình trước khi biến thành những món xào nấu ngon lành dưới tay các đầu bếp nổi danh hay các bà nội trợ. Tất cả của ngon vật lạ các nơi đều đem đến đây, để hiến cho sự thưởng thức sành sỏi của người Hà Nội.
 (Thạch Lam, Những chốn ăn chơi)
 Tư tưởng chính của đoạn trích trên là gì?
 A. Phê phán thói ăn chơi của người Hà Nội.
@@ -379,7 +379,7 @@ B. I cannot ascertain my cousins' visit to Tokyo on their trip to Japan last yea
 C. I believed that my cousin went to Japan to visit Tokyo.
 D. My cousin must have visited Tokyo when they went to Japan last year.
 
-Câu 43: "I'll give you the new timetable for your next semester, Jack,” the teacher said.
+Câu 43: "I'll give you the new timetable for your next semester, Jack, ” the teacher said.
 A. The teacher said to Jack that she would give him the new timetable for her next semester.
 B. The teacher advised Jack that he would give her the new timetable for his next semester.
 C. The teacher said that Jack would give her the new timetable for his next semester.
@@ -520,13 +520,13 @@ B. $m<\frac{29}{12}$.
 C. $m\in\varnothing$.
 D. $m<0$ hoặc $m>1$.
 
-Câu 63: Cho các số thực $x,y$ thỏa mãn điều kiện $1+2\log_4(x)+\log_2(x-2)=\log_2(y)$. Khi đó:
+Câu 63: Cho các số thực $x, y$ thỏa mãn điều kiện $1+2\log_4(x)+\log_2(x-2)=\log_2(y)$. Khi đó:
 A. $y=x^2-4x+4$.
 B. $y=2x-1$.
 C. $y=2x^2-4x$.
 D. $y=2^x$.
 
-Câu 64: Cho bất phương trình $2^x+x\le y+\log_2(y)$ với $x,y$ là các số nguyên dương và $y\le 15$. Số giá trị của $x$ thỏa mãn bất phương trình trên là:
+Câu 64: Cho bất phương trình $2^x+x\le y+\log_2(y)$ với $x, y$ là các số nguyên dương và $y\le 15$. Số giá trị của $x$ thỏa mãn bất phương trình trên là:
 A. 3.
 B. 5.
 C. 2.
@@ -539,7 +539,7 @@ B. 190.
 C. 200.
 D. 170.
 
-Câu 66: Một nhân viên giao hàng xuất phát từ kho $K$ để đi giao hàng tại 4 địa điểm $A,B,C,D$. Nhân viên phải ghé qua mỗi địa điểm đúng một lần, sau đó quay lại kho $K$. Thời gian di chuyển hai chiều như nhau, với các đoạn đường: $KA=18$, $KB=8$, $KC=30$, $KD=35$, $AB=10$, $AD=12$, $BC=25$, $BD=32$, $AC=40$, $CD=15$ phút. Tổng thời gian di chuyển ít nhất là bao nhiêu?
+Câu 66: Một nhân viên giao hàng xuất phát từ kho $K$ để đi giao hàng tại 4 địa điểm $A, B, C, D$. Nhân viên phải ghé qua mỗi địa điểm đúng một lần, sau đó quay lại kho $K$. Thời gian di chuyển hai chiều như nhau, với các đoạn đường: $KA=18$, $KB=8$, $KC=30$, $KD=35$, $AB=10$, $AD=12$, $BC=25$, $BD=32$, $AC=40$, $CD=15$ phút. Tổng thời gian di chuyển ít nhất là bao nhiêu?
 A. 78.
 B. 75.
 C. 80.
@@ -570,20 +570,20 @@ B. $-\frac{1}{11}$.
 C. $\frac{1}{2}$.
 D. Không xác định.
 
-Câu 71: Cho hàm số $f(x)$ liên tục và có đạo hàm trên khoảng $(0;+\infty)$ thỏa mãn $x\cdot f'(x)-f(x)=2$ và $f(1)=0$. Tính giá trị của $f(e)$.
+Câu 71: Cho hàm số $f(x)$ liên tục và có đạo hàm trên khoảng $(0; +\infty)$ thỏa mãn $x\cdot f'(x)-f(x)=2$ và $f(1)=0$. Tính giá trị của $f(e)$.
 A. $2e^2$.
 B. $e-1$.
 C. $2e-2$.
 D. $-1$.
 
-Câu 72: Giá trị của tích phân $A=\int_{-2}^{2}|x-1|\,dx$ là:
+Câu 72: Giá trị của tích phân $A=\int_{-2}^{2}|x-1|\, dx$ là:
 A. 2.
 B. 5.
 C. −4.
 D. 4.
 
 Dựa vào dữ kiện bên dưới để trả lời các câu hỏi từ 73 đến 74
-Trong không gian với hệ tọa độ $Oxyz$, cho tứ diện $ABCD$ với $A(1;3;-2)$, $B(3;2;-4)$, $C(2;1;0)$ và $D(3;5;-1)$.
+Trong không gian với hệ tọa độ $Oxyz$, cho tứ diện $ABCD$ với $A(1; 3; -2)$, $B(3; 2; -4)$, $C(2; 1; 0)$ và $D(3; 5; -1)$.
 
 Câu 73: Biết $M$ là trung điểm của cạnh $BC$, khi đó số đo góc $AMD$ xấp xỉ bằng:
 A. 55°.
@@ -591,7 +591,7 @@ B. 45°.
 C. 65°.
 D. 35°.
 
-Câu 74: Gọi $A',B',C',D'$ lần lượt là hình chiếu vuông góc của các điểm $A,B,C,D$ lên mặt phẳng $(Oxy)$. Tứ giác $A'B'C'D'$ là:
+Câu 74: Gọi $A', B', C', D'$ lần lượt là hình chiếu vuông góc của các điểm $A, B, C, D$ lên mặt phẳng $(Oxy)$. Tứ giác $A'B'C'D'$ là:
 A. Hình vuông.
 B. Hình thoi nhưng không phải là hình vuông.
 C. Hình thang nhưng không cân.
@@ -630,7 +630,7 @@ C. 4800.
 D. 4000.
 
 Dựa vào dữ kiện bên dưới để trả lời các câu hỏi từ 79 đến 81
-Trong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có $A(1;5)$, $B(-3;1)$ và $C(5;5)$.
+Trong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có $A(1; 5)$, $B(-3; 1)$ và $C(5; 5)$.
 
 Câu 79: Gọi I là điểm di chuyển trên trục hoành sao cho tổng IA + IC đạt giá trị nhỏ nhất. Tổng giá trị các tọa độ của điểm I là:
 A. 1.
@@ -678,10 +678,10 @@ Dựa vào dữ kiện bên dưới để trả lời các câu hỏi từ 85 đ
 Cho hàm số $f(x)=x^3-3x^2-9x+6$.
 
 Câu 85: Hàm số nghịch biến trong khoảng nào dưới đây?
-A. (1;4).
-B. (−3;1).
-C. (0;3).
-D. (−2;2)
+A. (1; 4).
+B. (−3; 1).
+C. (0; 3).
+D. (−2; 2)
 
 Câu 86: Khoảng cách giữa 2 điểm cực trị của hàm số đã cho là:
 A. $\sqrt{488}$.
@@ -692,10 +692,10 @@ D. $\sqrt{1040}$.
 Câu 87: Biết đồ thị hàm số y = m − 3x (với m là tham số thực) cắt đồ thị hàm số y = f (x) tại 3 điểm phân
 
 biệt A, B, C sao cho B là trung điểm của đoạn thẳng AC. Giá trị của tham số m thuộc khoảng nào dưới đây?
-A. (2;4).
-B. (−1;0).
+A. (2; 4).
+B. (−1; 0).
 C. (−3; −1).
-D. (0;2).
+D. (0; 2).
 
 Dựa vào dữ kiện bên dưới để trả lời các câu hỏi từ 88 đến 90
 Cho hình chóp $S.ABC$ có cạnh bên $SA$ vuông góc với mặt phẳng đáy. Biết tam giác $ABC$ cân tại $A$, đường trung tuyến $AD=a$. Cạnh bên $SB$ tạo với mặt phẳng đáy một góc $45^\circ$ và tạo với mặt phẳng $(SAD)$ một góc $30^\circ$.
@@ -718,99 +718,7 @@ B. $3a^3\sqrt{2}$.
 C. $\frac{a^3\sqrt{2}}{3}$.
 D. $\frac{a^3\sqrt{2}}{9}$.
 
-PHẦN 3 - TƯ DUY KHOA HỌC / LOGIC – PHÂN TÍCH SỐ LIỆU
-
-Dựa vào dữ kiện bên dưới để trả lời các câu hỏi từ 91 đến 93
-Có 6 tình nguyện viên G, H, K, L, M, N được chia làm 3 đội, mỗi đội 2 người. Trong mỗi đội có một người làm đội trưởng. Biết cách chia thỏa mãn điều kiện sau:
-- K ở chung đội với G hoặc N;
-- H là đội trưởng;
-- Một trong 2 người G hoặc L làm đội trưởng (hai người không đồng thời làm đội trưởng).
-
-Câu 91: Danh sách chia đội có thể của các tình nguyện viên là. Biết khi liệt kê thì đội trưởng đứng trước.
-A. Đội 1: K, G; Đội 2: N, H; Đội 3: L, M.
-B. Đội 1: G, K; Đội 2: H, L; Đội 3: N, M.
-C. Đội 1: G, K; Đội 2: L, M; Đội 3: H, N.
-D. Đội 1: L, G; Đội 2: K, M; Đội 3: H, N.
-
-Câu 92: Nếu H ở chung đội với L thì điều nào sau đây phải đúng?
-A. G là đội trưởng.
-B. K không là đội trưởng.
-C. N không là đội trưởng.
-D. M chung đội với M.
-
-Câu 93: Nếu M là đội trưởng, những người nào sau đây có thể ở chung đội?
-A. K và N
-B. L và N.
-C. H và N.
-D. G và M.
-
-Dựa vào dữ kiện bên dưới để trả lời các câu hỏi từ 94 đến 96
-Có 9 tay vợt K, L, M, N, P, Q, R, S, T được xếp hạng từ 1 (cao nhất) đến 9 (thấp nhất). Trên bảng xếp hạng không có 2 tay vợt nào cùng hạng. Biết xếp hạng của 9 tay vợt thỏa mãn những điều sau: M xếp thứ 1 hoặc thứ 9; K xếp cao hơn L và N; L xếp cao hơn Q và R; N xếp cao hơn P; Q xếp cao hơn S; S xếp cao hơn T.
-
-Câu 94: Thứ tự liệt kê danh sách nào sau đây thỏa mãn thứ tự của 9 tay vợt:
-A. L, R, K, N, P, Q, S, T, M.
-B. K, L, N, P, Q, S, T, M, R.
-C. K, R, N, P, L, Q, S, T, M.
-D. M, K, L, N, Q, S, R, T, P.
-
-Câu 95: Nếu P xếp thứ 3 thì đâu là danh sách đầy đủ và chính xác những người có thể xếp ở vị trí thứ 6?
-A. Q, R.
-B. Q, S.
-C. Q, R, S.
-D. R, S.
-
-Câu 96: Số người tối đa có thể xếp giữa P và Q là:
-A. 4.
-B. 3.
-C. 5.
-D. 2.
-
-Dựa vào dữ kiện bên dưới để trả lời các câu hỏi từ 97 đến 99
-Cho bảng số liệu từ năm về chi phí và tỉ lệ lợi nhuận so với doanh thu của 2 công ty A và B từ năm 2014 – 2019.
-Công ty A Công ty B
-Năm
-Chi phí (tỷ đồng) Tỉ lệ lợi nhuận (%) Chi phí (tỷ đồng) Tỉ lệ lợi nhuận (%) 2014 16,5 15,4 15,2 20,1 2015 17,2 16,2 17,3 22,1 2016 19,6 20,3 16,3 19,3 2017 20,1 25,1 18,5 25,5 2018 22,4 22,3 20,2 23,3 2019 24,2 23,4 22,1 24,6
-
-Biết lợi nhuận bằng chênh lệch giữa doanh thu và chi phí.
-
-Câu 97: Doanh thu của công ty A trong năm 2014 là:
-A. 21,3 tỷ đồng.
-B. 16,1 tỷ đồng.
-C. 18,2 tỷ đồng.
-D. 19,5 tỷ đồng.
-
-Câu 98: Chênh lệch lợi nhuận của công ty A và công ty B trong năm 2019 là:
-A. 100 triệu đồng.
-B. 182 triệu đồng.
-C. 215 triệu đồng.
-D. 152 triệu đồng.
-
-Câu 99: Trong cả giai đoạn 2014 – 2019, chi phí công ty A xấp xỉ bao nhiêu % doanh thu?
-A. 76%.
-B. 82%.
-C. 79%.
-D. 73%.
-
-Dựa vào dữ kiện bên dưới để trả lời các câu hỏi từ 100 đến 102
-Tỷ lệ người lao động trong các ngành công nghiệp năm 2024: Khai khoáng 25%; Chế biến, chế tạo 30%; Cung cấp nước, quản lý và xử lý nước thải 20%; Khác 25%.
-
-Câu 100: Số lượng người lao động thuộc nhóm chế biến, chế tạo chiếm nhiều hơn bao nhiêu phần trăm so với số người lao động nhóm khai khoáng?
-A. 5%.
-B. 15%.
-C. 10%.
-D. 20%.
-
-Câu 101: Trong nhóm “Khác”, người lao động sản xuất và phân phối điện chiếm tỉ lệ 20%. Tỉ lệ người lao động sản xuất và phân phối điện so với người lao động chế biến, chế chế chế tạo là:
-A. 1:2.
-B. 1:5.
-C. 1:6.
-D. 1:3.
-
-Câu 102: Trong năm 2025, vì một số người lao động khai khoáng chuyển sang nên số lượng người lao động chế biến, chế tạo tăng 10%. Số lượng người lao động khai khoáng giảm bao nhiêu phần trăm?
-A. 9%.
-B. 3%.
-C. 12%.
-D. 6%.
+PHẦN 3 - TƯ DUY KHOA HỌC / LOGIC - PHÂN TÍCH SỐ LIỆU
 
 PHẦN 3 - TƯ DUY KHOA HỌC / SUY LUẬN KHOA HỌC
 

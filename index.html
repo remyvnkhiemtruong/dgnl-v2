@@ -57,7 +57,8 @@
         <button class="icon-btn" id="menuBtn" aria-label="Mở danh sách câu hỏi">☰</button>
         <div class="tabs" role="tablist">
           <button class="tab active" data-tab="exam">Làm bài</button>
-          <button class="tab" data-tab="text">Đề text</button>
+          <button class="tab" data-tab="text">Đọc đề</button>
+          <button class="tab" data-tab="paper">Đề giấy</button>
           <button class="tab locked" data-tab="review" aria-disabled="true">Lời giải 🔒</button>
         </div>
         <div class="topbar-actions">
@@ -89,12 +90,27 @@
       </section>
 
       <section class="panel" id="textPanel">
-        <div class="reading-tools">
+        <div class="reading-tools reading-toolbar">
+          <div class="segmented" role="group" aria-label="Chế độ đọc đề">
+            <button class="segment active" data-reading-mode="sections">Theo phần</button>
+            <button class="segment" data-reading-mode="full">Toàn văn</button>
+          </div>
+          <select id="sectionSelect" aria-label="Chọn phần đề thi">
+            <option value="all">Tất cả các phần</option>
+          </select>
           <input id="searchBox" type="search" placeholder="Tìm trong đề text..." />
           <button class="btn btn-ghost" id="copyExamTextBtn">Copy đề không đáp án</button>
-          <button class="btn btn-ghost" id="printBtn">In / lưu PDF từ trình duyệt</button>
         </div>
+        <div id="readingContent" class="reading-content"></div>
         <pre id="examText" class="full-text"></pre>
+      </section>
+
+      <section class="panel" id="paperPanel">
+        <div class="paper-tools">
+          <button class="btn btn-ghost" id="printBtn">In / lưu PDF</button>
+          <button class="btn btn-ghost" id="copyPaperTextBtn">Copy đề giấy</button>
+        </div>
+        <article id="paperExam" class="paper-page"></article>
       </section>
 
       <section class="panel" id="reviewPanel">

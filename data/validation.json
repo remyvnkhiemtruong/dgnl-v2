@@ -3,7 +3,9 @@
   "missingQuestions": [],
   "questionsWithoutFourOptions": [],
   "questionsWithoutAnswer": [],
+  "replacementCharacters": 0,
   "puaRemaining": [],
+  "tripleBlankLines": false,
   "lockedSolutionsUntilSubmit": true,
   "localFileMode": "index.html can run through file:// because data/exam-data.js assigns window.EXAM_DATA before app.js."
 }
