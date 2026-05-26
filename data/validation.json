@@ -1,0 +1,9 @@
+{
+  "questionCount": 120,
+  "missingQuestions": [],
+  "questionsWithoutFourOptions": [],
+  "questionsWithoutAnswer": [],
+  "puaRemaining": [],
+  "lockedSolutionsUntilSubmit": true,
+  "localFileMode": "index.html can run through file:// because data/exam-data.js assigns window.EXAM_DATA before app.js."
+}

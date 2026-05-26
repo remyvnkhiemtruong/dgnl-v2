@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Phòng thi ĐGNL dạng text, có timer, chấm điểm và hỗ trợ LaTeX." />
+  <title>Phòng thi ĐGNL HCM V-ACT 2026</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
+      svg: { fontCache: 'global' },
+      options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="logo">ĐGNL</div>
+        <div>
+          <h1>Phòng thi</h1>
+          <p id="examTitle">Đang tải đề...</p><p class="local-note">Có thể mở trực tiếp index.html bằng trình duyệt.</p>
+        </div>
+      </div>
+
+      <div class="timer-card">
+        <div class="timer-label">Thời gian còn lại</div>
+        <div class="timer" id="timer">--:--:--</div>
+        <div class="timer-actions">
+          <button class="btn btn-ghost" id="startBtn">Bắt đầu</button>
+          <button class="btn btn-ghost" id="pauseBtn">Tạm dừng</button>
+        </div>
+        <label class="duration-label">Thời lượng phút
+          <input id="durationInput" type="number" min="1" max="300" value="150" />
+        </label>
+      </div>
+
+      <div class="progress-card">
+        <div class="progress-line"><span>Đã làm</span><strong id="answeredCount">0/120</strong></div>
+        <div class="progress-bar"><span id="progressBar"></span></div>
+        <div class="progress-line"><span>Đánh dấu</span><strong id="flaggedCount">0</strong></div>
+      </div>
+
+      <div class="filters">
+        <button class="chip active" data-filter="all">Tất cả</button>
+        <button class="chip" data-filter="unanswered">Chưa làm</button>
+        <button class="chip" data-filter="flagged">Đánh dấu</button>
+      </div>
+      <div class="question-grid" id="questionGrid" aria-label="Danh sách câu hỏi"></div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn" id="menuBtn" aria-label="Mở danh sách câu hỏi">☰</button>
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-tab="exam">Làm bài</button>
+          <button class="tab" data-tab="text">Đề text</button>
+          <button class="tab locked" data-tab="review" aria-disabled="true">Lời giải 🔒</button>
+        </div>
+        <div class="topbar-actions">
+          <button class="btn btn-ghost" id="exportBtn">Xuất bài làm</button>
+          <button class="btn btn-danger" id="resetBtn">Xóa bài làm</button>
+          <button class="btn btn-primary" id="submitBtn">Nộp bài</button>
+        </div>
+      </header>
+
+      <section class="panel active" id="examPanel">
+        <div class="question-card">
+          <div class="question-meta">
+            <span id="sectionName">--</span>
+            <button class="btn btn-flag" id="flagBtn">☆ Đánh dấu</button>
+          </div>
+          <h2 id="questionNumber">Câu --</h2>
+          <details class="context-box" id="contextBox" open>
+            <summary>Ngữ liệu / dữ kiện chung</summary>
+            <div id="contextText" class="rich-text"></div>
+          </details>
+          <div id="promptText" class="rich-text prompt"></div>
+          <div id="options" class="options"></div>
+          <div class="nav-actions">
+            <button class="btn btn-ghost" id="prevBtn">← Câu trước</button>
+            <button class="btn btn-ghost" id="clearBtn">Bỏ chọn</button>
+            <button class="btn btn-primary" id="nextBtn">Câu sau →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="textPanel">
+        <div class="reading-tools">
+          <input id="searchBox" type="search" placeholder="Tìm trong đề text..." />
+          <button class="btn btn-ghost" id="copyExamTextBtn">Copy đề không đáp án</button>
+          <button class="btn btn-ghost" id="printBtn">In / lưu PDF từ trình duyệt</button>
+        </div>
+        <pre id="examText" class="full-text"></pre>
+      </section>
+
+      <section class="panel" id="reviewPanel">
+        <div class="result-card" id="resultCard">
+          <h2>Kết quả</h2>
+          <p>Chưa nộp bài. Khi nộp, hệ thống sẽ hiện điểm, đáp án đúng và giải thích.</p>
+        </div>
+        <div id="reviewList" class="review-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="confirmDialog" class="modal">
+    <form method="dialog">
+      <h3>Nộp bài?</h3>
+      <p>Hệ thống sẽ chấm theo đáp án trong dữ liệu. Bạn vẫn có thể xem lại lời giải sau khi nộp.</p>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" value="cancel">Hủy</button>
+        <button class="btn btn-primary" value="ok">Nộp bài</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="data/exam-data.js"></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
